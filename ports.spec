@@ -43,14 +43,12 @@ mv $RPM_BUILD_ROOT%{_datadir}/%{name}/internals/pkg_ports $RPM_BUILD_ROOT/%{_bin
 rm -rf $(find $RPM_BUILD_ROOT -name CVS)
 rm -f $RPM_BUILD_ROOT%{_datadir}/%{name}/internals/install.sh
 
-gzip -9nf internals/doc/{README,INSTALL,TODO,install-lists}
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc internals/doc/*.gz
+%doc internals/doc/{README,INSTALL,TODO,install-lists}
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
 %{_sysconfdir}
