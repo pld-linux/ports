@@ -3,7 +3,7 @@
 @@ -1,7 +1,7 @@
  browser="links"
 -ports_backend="" 
-+ports_backend="instmon"
++ports_backend="rpm"
  #get avail backends via "pkg_ports show-backends"
 -ports_dir="/usr/ports/"
 +ports_dir="/usr/share/ports"
