@@ -4,7 +4,7 @@
 #
 # Attention - package is in development !
 #
-%define		snap 020412
+%define		snap 020421
 Summary:	ports
 Summary(pl):	ports
 Name:		ports
