@@ -1,0 +1,16 @@
+--- internals/ports.orig	Sun Apr 14 22:43:08 2002
++++ internals/ports	Wed Apr 17 00:29:49 2002
+@@ -1,6 +1,6 @@
+ browser="links"
+-ports_backend=""
+-ports_dir="/usr/ports/"
++ports_backend="/usr/share/ports/internals/backends"
++ports_dir="/usr/share/ports"
+ install_prefix="/usr/local/"
+ packages_dir="$ports_dir/packages/"
+ get_command="wget --dot-style=binary -N -c" # pkg_name-pkg_version 
+@@ -8,3 +8,4 @@
+ patch_host="ftp://molle.kicks-ass.net"
+ patch_dir="/ports"
+ #ignore_minimal_errors=yes
++
