@@ -1,11 +1,12 @@
---- internals/ports.orig	Sun Apr 21 14:21:40 2002
-+++ internals/ports	Sun Apr 21 14:48:57 2002
-@@ -1,6 +1,6 @@
+--- internals/ports.orig	Mon Apr 29 08:46:17 2002
++++ internals/ports	Mon Apr 29 15:04:41 2002
+@@ -1,7 +1,7 @@
  browser="links"
--ports_backend=""
+-ports_backend="" 
++ports_backend="instmon"
+ #get avail backends via "pkg_ports show-backends"
 -ports_dir="/usr/ports/"
-+ports_backend="/usr/share/ports/internals/backends"
-+ports_dir="/usr/share/ports/"
++ports_dir="/usr/share/ports"
  packages_dir="$ports_dir/packages/"
  get_command="wget --dot-style=binary -N -c" # pkg_name-pkg_version 
  #force_march="i386"
