@@ -14,6 +14,7 @@ License:	GPL
 Group:		Applications/Archving
 ######		Unknown group!
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	05e1862f6dfe0879d5596f59cf16e17f
 Patch0:		%{name}-PLD.patch
 URL:		http://www.nuulinux.org/
 Requires:	/bin/sh
