@@ -2,7 +2,7 @@
 # TODO:
 # Sumamry, Desription,
 #
-# Attention - package are in development !
+# Attention - package is in development !
 #
 %define		snap 020412
 Summary:	ports
