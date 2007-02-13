@@ -6,7 +6,7 @@
 #
 %define		snap 020429
 Summary:	Ports for Linux
-Summary(pl.UTF-8):   Mechanizm portów dla Linuksa
+Summary(pl.UTF-8):	Mechanizm portów dla Linuksa
 Name:		ports
 Version:	%{snap}
 Release:	0.1
