@@ -29,7 +29,7 @@ Mechanizm portów dla Linuksa.
 
 %prep
 %setup -q -n %{name}
-%patch0 -p0
+%patch -P0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT
